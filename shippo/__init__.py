@@ -1,3 +1,5 @@
+from shippo.config import config
+
 from shippo.resource import (
     Address,
     Batch,

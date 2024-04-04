@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "shippo-legacy"
-version = "2.1.4"
+version = "2.1.5"
 authors = [
   "rapid537 <rapid537@zoho.com>",
 ]

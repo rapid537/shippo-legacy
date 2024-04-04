@@ -11,39 +11,19 @@ You will first need to [register for a Shippo account](https://goshippo.com/) to
 
 Configurable variables previously available in the main module (ex: `shippo.api_key`) have been moved to the `shippo.config` module.
 
+```bash
+
+python3 -m pip install shippo-legacy
+
+```
+
 ```python
 
 import shippo
 
-shippo.config.api_key = "<API-KEY>"
-shippo.config.api_version = "2018-02-08"
-shippo.config.verify_ssl_certs = True
-shippo.config.rates_req_timeout = 30.0
-shippo.config.timeout_in_seconds = None
-# default timeout set in the above line is:
-# 80 seconds for RequestsClient
-# 55 seconds for UrlFetchClient
-shippo.config.app_name = "Name of your Application" # Not required
-shippo.config.app_version = "Version of Application" # Not required
 ```
-
-
 
 ### How do I get set up?
-
-#### To install from the source file:
-
-```
-#!shell
-python setup.py install
-```
-
-or pip (https://pip.pypa.io/en/latest/index.html):
-
-```
-#!shell
-sudo pip install shippo
-```
 
 #### To test:
 
